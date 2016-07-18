@@ -1,13 +1,25 @@
+html, body {
+                height: 100%;
+            }
 body {
-	margin : 0px;
-	padding:0px;
+	background: #141a26;
+	color: white;
+	 margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-weight: 100;
+	font-family: Lato;
 
 }
 #wrapper {
-	display: table;
-	margin:0 auto;
-	width:500px;
-	height:200px;
-	vertical-align: middle;
-	border:1px solid black;
+	  text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+}
+.desc {
+	font-size: 25px;
+}
+h1.logo {
+font-size:50px;
 }
